@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Oval Satriya Handanu — Graphic Designer, Event Production & Visual Creative." />
+  <title>Oval Satriya Handanu — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <header>
+    <a class="brand magnetic" href="#top">OVAL <span>/</span> SATRIYA</a>
+    <nav>
+      <a class="magnetic" href="#work">Karya</a>
+      <a class="magnetic" href="#about">Tentang</a>
+      <a class="magnetic" href="#contact">Kontak</a>
+      <a class="nav-cta magnetic admin-only" href="javascript:void(0)" id="navAdd" data-txt="addWorkButton">+ Tambah Karya</a>
+      <button id="adminAccessBtn" class="magnetic" type="button">Admin</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-image" id="heroImageBox"><img id="heroImage" alt="Hero portfolio" /></div>
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow reveal" data-txt="heroEyebrow">Graphic Designer • Visual Creative • Event Production</div>
+          <h1 class="reveal"><span data-txt="heroTitle1">Creating</span> <span class="serif" data-txt="heroTitle2">visual</span><br><span data-txt="heroTitle3">with purpose.</span></h1>
+          <p class="hero-copy reveal" data-txt="heroDescription">Halo, saya <strong>Oval Satriya Handanu</strong>. Saya menggabungkan desain, visual event, fotografi, dan produksi kreatif untuk membangun karya yang terlihat kuat sekaligus punya cerita.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary magnetic" href="#work" data-txt="heroCtaWork">Lihat karya ↓</a>
+            <a class="btn btn-ghost magnetic" href="#contact" data-txt="heroCtaContact">Hubungi saya</a>
+          </div>
+        </div>
+        <aside class="hero-side reveal">
+          <div class="profile-card">
+            <div class="avatar" id="avatarBox">YOUR<br>PHOTO</div>
+            <div>
+              <h3 data-txt="profileName">Oval Satriya Handanu</h3>
+              <p data-txt="profileLocation">Sintang, Kalimantan Barat<br>Indonesia</p>
+              <div style="margin-top:14px"><button class="btn btn-ghost admin-only" id="changeProfileBtn" style="padding:9px 12px;font-size:.78rem" data-txt="profileButton">Tambah / Ganti foto profil</button></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span data-txt="ticker1">Design <b>✦</b></span><span data-txt="ticker2">Photography <b>✦</b></span><span data-txt="ticker3">Event Production <b>✦</b></span><span data-txt="ticker4">Branding <b>✦</b></span><span data-txt="ticker5">Visual Experience <b>✦</b></span><span data-txt="ticker1b">Design <b>✦</b></span><span data-txt="ticker2b">Photography <b>✦</b></span><span data-txt="ticker3b">Event Production <b>✦</b></span><span data-txt="ticker4b">Branding <b>✦</b></span><span data-txt="ticker5b">Visual Experience <b>✦</b></span>
+      </div>
+    </div>
+
+    <section id="work">
+      <div class="section-head reveal">
+        <div><div class="eyebrow" data-txt="workEyebrow">Selected work</div><h2 class="section-title"><span data-txt="workTitle1">Karya</span> <em data-txt="workTitle2">pilihan.</em></h2></div>
+        <p class="section-intro" data-txt="workIntro">Portfolio ini bersifat read-only untuk pengunjung. Hanya Admin yang dapat menambah, mengedit, dan menghapus karya serta mengubah teks dan gambar.</p>
+      </div>
+      <div class="works reveal" id="worksGrid"></div>
+    </section>
+
+    <section id="about">
+      <div class="about-grid">
+        <div class="reveal"><div class="eyebrow" data-txt="aboutEyebrow">About</div><div class="big-statement"><span data-txt="aboutText1">Saya membuat desain yang</span> <span class="serif" data-txt="aboutText2">jelas</span>, <span class="serif" data-txt="aboutText3">berkarakter</span>, <span data-txt="aboutText4">dan siap dipakai.</span></div></div>
+        <div class="reveal">
+          <p class="about-copy" data-txt="aboutDescription">Fokus saya berada pada desain komunikasi visual, kebutuhan event, branding sederhana, fotografi, serta produksi visual. Portfolio ini dibuat supaya proses menampilkan karya terasa cepat: pilih gambar, isi detail project, lalu project langsung muncul di halaman.</p>
+          <div class="skills">
+            <span class="chip" data-txt="skill1">Photoshop</span><span class="chip" data-txt="skill2">Canva</span><span class="chip" data-txt="skill3">AutoCAD</span><span class="chip" data-txt="skill4">Graphic Design</span><span class="chip" data-txt="skill5">Photography</span><span class="chip" data-txt="skill6">Event Production</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="services">
+        <div class="service reveal"><div class="service-num">01</div><h3 data-txt="service1Title">Graphic Design</h3><p data-txt="service1Desc">Poster, menu, social media, layout, dan materi promosi.</p></div>
+        <div class="service reveal"><div class="service-num">02</div><h3 data-txt="service2Title">Event Visual</h3><p data-txt="service2Desc">Konsep visual event, booth, screen, dekorasi, dan produksi lapangan.</p></div>
+        <div class="service reveal"><div class="service-num">03</div><h3 data-txt="service3Title">Photography</h3><p data-txt="service3Desc">Dokumentasi, portrait, product, dan kebutuhan visual brand.</p></div>
+        <div class="service reveal"><div class="service-num">04</div><h3 data-txt="service4Title">Digital Content</h3><p data-txt="service4Desc">Konten visual untuk promosi digital dan kebutuhan bisnis.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-box reveal">
+        <div class="eyebrow" data-txt="contactEyebrow">Let's work together</div>
+        <h2><span data-txt="contactTitle1">Punya ide?</span><br><span class="serif" data-txt="contactTitle2">Mari wujudkan.</span></h2>
+        <div class="contact-row">
+          <div class="email"><span data-txt="emailLabel">Email:</span> <strong id="emailText">oval.satriya@example.com</strong></div>
+          <a class="btn btn-primary magnetic" id="emailBtn" href="mailto:oval.satriya@example.com" data-txt="emailButton">Kirim pesan ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><span data-txt="footerPrefix">©</span> <span id="year"></span> <span id="footerName">Oval Satriya Handanu</span></div>
+    <div data-txt="footerTagline">Built for visual work.</div>
+  </footer>
+
+  <div class="manage-bar admin-only">
+    <button class="manage-btn magnetic" id="editSiteBtn">⚙ Edit Semua Teks</button>
+    <button class="manage-btn magnetic" id="heroImageBtn">🖼 Ganti Gambar Hero</button>
+  </div>
+  <button class="floating-add magnetic admin-only" id="floatingAdd" data-txt="addWorkButton">+ Tambah Karya</button>
+
+
+  <div class="modal" id="adminLoginModal" role="dialog" aria-modal="true" aria-labelledby="adminLoginTitle">
+    <div class="modal-panel admin-login-box">
+      <div class="modal-head"><div><div class="eyebrow" style="margin-bottom:6px">Restricted area</div><h3 id="adminLoginTitle">Login Admin</h3><div class="editor-note">Pengunjung biasa hanya dapat melihat portfolio. Masukkan password untuk membuka semua fitur edit.</div></div><button class="close-btn" id="closeAdminLogin">×</button></div>
+      <form id="adminLoginForm">
+        <div class="field"><label for="adminPassword">Password</label><input id="adminPassword" type="password" autocomplete="current-password" placeholder="Masukkan password" required /></div>
+        <div id="adminLoginError" class="admin-status" aria-live="polite"></div>
+        <div class="form-actions"><button type="button" class="mini-btn cancel" id="cancelAdminLogin">Batal</button><button type="submit" class="mini-btn save">Masuk Admin</button></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="siteEditorModal" role="dialog" aria-modal="true" aria-labelledby="siteEditorTitle">
+    <div class="modal-panel">
+      <div class="modal-head"><div><div class="eyebrow" style="margin-bottom:6px">Website editor</div><h3 id="siteEditorTitle">Edit semua teks website</h3><div class="editor-note">Semua perubahan disimpan di browser ini. Kamu bisa mengubah hampir semua teks yang tampil di halaman tanpa menyentuh kode.</div></div><button class="close-btn" id="closeSiteEditor">×</button></div>
+      <div class="editor-tabs">
+        <button class="editor-tab active" data-pane="heroPane">Hero</button>
+        <button class="editor-tab" data-pane="workPane">Karya</button>
+        <button class="editor-tab" data-pane="aboutPane">Tentang</button>
+        <button class="editor-tab" data-pane="servicesPane">Layanan</button>
+        <button class="editor-tab" data-pane="contactPane">Kontak</button>
+        <button class="editor-tab" data-pane="globalPane">Navigasi</button>
+      </div>
+      <div id="heroPane" class="editor-pane active">
+        <div class="editor-grid">
+          <div class="field"><label>Eyebrow</label><input data-edit="heroEyebrow" type="text"></div>
+          <div class="field"><label>Nama profile</label><input data-edit="profileName" type="text"></div>
+          <div class="field"><label>Judul utama 1</label><input data-edit="heroTitle1" type="text"></div>
+          <div class="field"><label>Judul utama 2 (italic)</label><input data-edit="heroTitle2" type="text"></div>
+          <div class="field"><label>Judul utama 3</label><input data-edit="heroTitle3" type="text"></div>
+          <div class="field"><label>Lokasi</label><textarea data-edit="profileLocation"></textarea></div>
+          <div class="field full"><label>Deskripsi hero</label><textarea data-edit="heroDescription"></textarea></div>
+          <div class="field"><label>Tombol karya</label><input data-edit="heroCtaWork" type="text"></div>
+          <div class="field"><label>Tombol kontak</label><input data-edit="heroCtaContact" type="text"></div>
+        </div>
+      </div>
+      <div id="workPane" class="editor-pane">
+        <div class="editor-grid">
+          <div class="field"><label>Judul section</label><input data-edit="workTitle1" type="text"></div>
+          <div class="field"><label>Judul italic</label><input data-edit="workTitle2" type="text"></div>
+          <div class="field"><label>Eyebrow</label><input data-edit="workEyebrow" type="text"></div>
+          <div class="field full"><label>Deskripsi section</label><textarea data-edit="workIntro"></textarea></div>
+        </div>
+        <div class="editor-note" style="margin-top:14px">Project juga bisa diedit satu per satu melalui tombol <b>Edit</b> pada kartu karya.</div>
+      </div>
+      <div id="aboutPane" class="editor-pane">
+        <div class="editor-grid">
+          <div class="field"><label>Eyebrow</label><input data-edit="aboutEyebrow" type="text"></div>
+          <div class="field"><label>Kalimat awal</label><input data-edit="aboutText1" type="text"></div>
+          <div class="field"><label>Kata italic 1</label><input data-edit="aboutText2" type="text"></div>
+          <div class="field"><label>Kata italic 2</label><input data-edit="aboutText3" type="text"></div>
+          <div class="field full"><label>Kalimat akhir</label><input data-edit="aboutText4" type="text"></div>
+          <div class="field full"><label>Deskripsi tentang</label><textarea data-edit="aboutDescription"></textarea></div>
+        </div>
+      </div>
+      <div id="servicesPane" class="editor-pane">
+        <div class="editor-grid">
+          <div class="field"><label>Layanan 1</label><input data-edit="service1Title" type="text"><textarea data-edit="service1Desc"></textarea></div>
+          <div class="field"><label>Layanan 2</label><input data-edit="service2Title" type="text"><textarea data-edit="service2Desc"></textarea></div>
+          <div class="field"><label>Layanan 3</label><input data-edit="service3Title" type="text"><textarea data-edit="service3Desc"></textarea></div>
+          <div class="field"><label>Layanan 4</label><input data-edit="service4Title" type="text"><textarea data-edit="service4Desc"></textarea></div>
+        </div>
+      </div>
+      <div id="contactPane" class="editor-pane">
+        <div class="editor-grid">
+          <div class="field"><label>Eyebrow</label><input data-edit="contactEyebrow" type="text"></div>
+          <div class="field"><label>Judul 1</label><input data-edit="contactTitle1" type="text"></div>
+          <div class="field"><label>Judul italic</label><input data-edit="contactTitle2" type="text"></div>
+          <div class="field"><label>Label email</label><input data-edit="emailLabel" type="text"></div>
+          <div class="field"><label>Tombol email</label><input data-edit="emailButton" type="text"></div>
+          <div class="field"><label>Alamat email</label><input id="editEmail" type="text"></div>
+        </div>
+      </div>
+      <div id="globalPane" class="editor-pane">
+        <div class="editor-grid">
+          <div class="field"><label>Teks brand kiri</label><input id="editBrand" type="text"></div>
+          <div class="field"><label>Menu karya</label><input id="editNavWork" type="text"></div>
+          <div class="field"><label>Menu tentang</label><input id="editNavAbout" type="text"></div>
+          <div class="field"><label>Menu kontak</label><input id="editNavContact" type="text"></div>
+          <div class="field"><label>Tombol tambah karya</label><input data-edit="addWorkButton" type="text"></div>
+          <div class="field"><label>Tombol foto profil</label><input data-edit="profileButton" type="text"></div>
+          <div class="field"><label>Tagline footer</label><input data-edit="footerTagline" type="text"></div>
+          <div class="field"><label>Skill 1</label><input data-edit="skill1" type="text"></div>
+          <div class="field"><label>Skill 2</label><input data-edit="skill2" type="text"></div>
+          <div class="field"><label>Skill 3</label><input data-edit="skill3" type="text"></div>
+          <div class="field"><label>Skill 4</label><input data-edit="skill4" type="text"></div>
+          <div class="field"><label>Skill 5</label><input data-edit="skill5" type="text"></div>
+          <div class="field"><label>Skill 6</label><input data-edit="skill6" type="text"></div>
+          <div class="field full"><label>Tagline marquee</label><div class="editor-grid">
+            <input data-edit="ticker1" type="text"><input data-edit="ticker2" type="text"><input data-edit="ticker3" type="text"><input data-edit="ticker4" type="text"><input data-edit="ticker5" type="text">
+          </div></div>
+        </div>
+        <div class="editor-note" style="margin-top:14px">Klik Simpan perubahan untuk menerapkan semuanya.</div>
+      </div>
+      <div class="form-actions">
+        <button type="button" class="mini-btn cancel" id="logoutAdmin">Keluar Admin</button>
+        <button type="button" class="mini-btn cancel" id="resetSiteText">Reset teks default</button>
+        <button type="button" class="mini-btn save" id="saveSiteText">Simpan perubahan</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-panel">
+      <div class="modal-head"><div><div class="eyebrow" style="margin-bottom:6px">Portfolio manager</div><h3 id="modalTitle">Tambah project</h3></div><button class="close-btn" id="closeModal">×</button></div>
+      <form id="projectForm">
+        <div class="form-grid">
+          <div class="field"><label for="projectTitle">Judul project</label><input id="projectTitle" type="text" required placeholder="Contoh: Branding Kedai Kopi" /></div>
+          <div class="field"><label for="projectCategory">Kategori</label><select id="projectCategory"><option>Graphic Design</option><option>Event Production</option><option>Photography</option><option>Branding</option><option>Digital Content</option></select></div>
+          <div class="field full"><label for="projectDescription">Deskripsi singkat</label><textarea id="projectDescription" placeholder="Ceritakan project ini..."></textarea></div>
+          <div class="field"><label for="projectRatio">Rasio tampilan</label><select id="projectRatio">
+            <option value="auto">Otomatis sesuai foto asli</option>
+            <option value="9:16">Reels / Story — 9:16</option>
+            <option value="4:5">Feed Portrait — 4:5</option>
+            <option value="16:9">Landscape — 16:9</option>
+            <option value="1:1">Square — 1:1</option>
+          </select><div class="ratio-note" id="projectRatioNote">Upload foto untuk mendeteksi rasio asli secara otomatis.</div></div>
+          <div class="field full"><label>Gambar project</label>
+            <div class="dropzone" id="dropzone"><input type="file" id="projectImage" accept="image/*" /><strong>Pilih gambar atau drag & drop ke sini</strong><p>JPG, PNG, WEBP — file diproses lokal di browser.</p><div class="preview" id="imagePreview"><img id="previewImg" alt="Preview project" /></div></div>
+          </div>
+        </div>
+        <div class="form-actions"><button type="button" class="mini-btn cancel" id="cancelModal">Batal</button><button type="submit" class="mini-btn save">Simpan project</button></div>
+      </form>
+    </div>
+  </div>
+
+  <input type="file" id="profileImage" accept="image/*" hidden />
+  <div class="toast" id="toast">Project tersimpan.</div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
